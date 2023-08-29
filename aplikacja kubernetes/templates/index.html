@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aplikacja do pracy o Kubernetes</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Adres IP Aplikacji:</h1>
+        <p class="ip-address">{{ ip_address }}</p>
+        <form method="post" action="/">
+            <button type="submit">Odśwież</button>
+        </form>
+        {% if updated %}
+            <p class="message">Adres IP został zaktualizowany!</p>
+        {% endif %}
+    </div>
+</body>
+</html>
