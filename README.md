@@ -12,9 +12,9 @@
 ## **Rozdział 2 - praca z Kubernetes**
 - Tworzenie i wdrożenie aplikacji w środowisku Kubernetes
 - Zarządzanie i monitorowanie aplikacji w środowisku Kubernetes
-## **Rozdział 3 - Współpraca Kubernetes z innymi aplikacjami oraz analiza porównawcza narzędzi**
-- Integracja Kubernetes z innymi narzędziami i usługami
-- Analiza porównawcza Kubernetes z innymi narzędziami do zarządzania aplikacjami
+## **Rozdział 3 - Wdrożenie aplikacji w Kubernetes**
+- Aplikacja
+- Jak skonfigurować Kubernetes i Horizontal Pod Autoscaling
 
 ## **Zakończenie**
 - Podsumowanie i wnioski
